@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+        <h1>Formulario de registro</h1>
+        <h2>Datos:</h2>
+
+        <form action="app.php" method="post">
+            <div class="row">
+                <div class="col m-2 border">
+                    <h3>Empleado 1</h3>
+                    <label for="name1" class="form-label">Nombre y apellido:</label>
+                    <input type="text" id="name1" name="name1" class="form-control-sm" required><br><br>
+
+                    <label for="age1" class="form-label">Edad:</label>
+                    <input type="number" id="age1" name="age1" class="form-control-sm" required><br><br>
+
+                    <label for="civil-status1" class="form-label">Estado civil:</label>
+                    <select name="civil-status1" id="civil-status1" class="form-control-sm" required>
+                        <option value="single">Soltero(a)</option>
+                        <option value="married">Casado(a)</option>
+                        <option value="widower">Viudo(a)</option>
+                    </select><br><br>
+
+                    <label for="gender1" class="form-label">Sexo:</label>
+                    <select name="gender1" id="gender1" class="form-control-sm" required>
+                        <option value="female">Femenino</option>
+                        <option value="male">Masculino</option>
+                    </select><br><br>
+
+                    <label for="salary1" class="form-label">Sueldo:</label>
+                    <input type="number" id="salary1" name="salary1" step="0.01" class="form-control-sm"
+                        required><br><br>
+                </div>
+
+                <div class="col m-2 border">
+                    <h3>Empleado 2</h3>
+                    <label for="name" class="form-label1">Nombre y apellido:</label>
+                    <input type="text" id="name2" name="name2" class="form-control-sm" required><br><br>
+
+                    <label for="age2" class="form-label">Edad:</label>
+                    <input type="number" id="age2" name="age2" class="form-control-sm" required><br><br>
+
+                    <label for="civil-status2" class="form-label">Estado civil:</label>
+                    <select name="civil-status2" id="civil-status2" class="form-control-sm" required>
+                        <option value="single">Soltero(a)</option>
+                        <option value="married">Casado(a)</option>
+                        <option value="widower">Viudo(a)</option>
+                    </select><br><br>
+
+                    <label for="gender2" class="form-label">Sexo:</label>
+                    <select name="gender2" id="gender2" class="form-control-sm" required>
+                        <option value="female">Femenino</option>
+                        <option value="male">Masculino</option>
+                    </select><br><br>
+
+                    <label for="salary2" class="form-label">Sueldo:</label>
+                    <input type="number" id="salary2" name="salary2" step="0.01" class="form-control-sm"
+                        required><br><br>
+                </div>
+
+                <div class="col m-2 border">
+                    <h3>Empleado 3</h3>
+                    <label for="name3" class="form-label">Nombre y apellido:</label>
+                    <input type="text" id="name3" name="name3" class="form-control-sm" required><br><br>
+
+                    <label for="age3" class="form-label">Edad:</label>
+                    <input type="number" id="age3" name="age3" class="form-control-sm" required><br><br>
+
+                    <label for="civil-status3" class="form-label">Estado civil:</label>
+                    <select name="civil-status3" id="civil-status3" class="form-control-sm" required>
+                        <option value="single">Soltero(a)</option>
+                        <option value="married">Casado(a)</option>
+                        <option value="widower">Viudo(a)</option>
+                    </select><br><br>
+
+                    <label for="gender3" class="form-label">Sexo:</label>
+                    <select name="gender3" id="gender3" class="form-control-sm" required>
+                        <option value="female">Femenino</option>
+                        <option value="male">Masculino</option>
+                    </select><br><br>
+
+                    <label for="salary3" class="form-label">Sueldo:</label>
+                    <input type="number" id="salary3" name="salary3" step="0.01" class="form-control-sm"
+                        required><br><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col m-2 border">
+                    <h3>Empleado 4</h3>
+                    <label for="name4" class="form-label">Nombre y apellido:</label>
+                    <input type="text" id="name4" name="name4" class="form-control-sm" required><br><br>
+
+                    <label for="age4" class="form-label">Edad:</label>
+                    <input type="number" id="age4" name="age4" class="form-control-sm" required><br><br>
+
+                    <label for="civil-status4" class="form-label">Estado civil:</label>
+                    <select name="civil-status4" id="civil-status4" class="form-control-sm" required>
+                        <option value="single">Soltero(a)</option>
+                        <option value="married">Casado(a)</option>
+                        <option value="widower">Viudo(a)</option>
+                    </select><br><br>
+
+                    <label for="gender4" class="form-label">Sexo:</label>
+                    <select name="gender4" id="gender4" class="form-control-sm" required>
+                        <option value="female">Femenino</option>
+                        <option value="male">Masculino</option>
+                    </select><br><br>
+
+                    <label for="salary4" class="form-label">Sueldo:</label>
+                    <input type="number" id="salary4" name="salary4" step="0.01" class="form-control-sm"
+                        required><br><br>
+                </div>
+
+                <div class="col m-2 border">
+                    <h3>Empleado 5</h3>
+                    <label for="name5" class="form-label">Nombre y apellido:</label>
+                    <input type="text" id="name5" name="name5" class="form-control-sm" required><br><br>
+
+                    <label for="age5" class="form-label">Edad:</label>
+                    <input type="number" id="age5" name="age5" class="form-control-sm" required><br><br>
+
+                    <label for="civil-status5" class="form-label">Estado civil:</label>
+                    <select name="civil-status5" id="civil-status5" class="form-control-sm" required>
+                        <option value="single">Soltero(a)</option>
+                        <option value="married">Casado(a)</option>
+                        <option value="widower">Viudo(a)</option>
+                    </select><br><br>
+
+                    <label for="gender5" class="form-label">Sexo:</label>
+                    <select name="gender5" id="gender5" class="form-control-sm" required>
+                        <option value="female">Femenino</option>
+                        <option value="male">Masculino</option>
+                    </select><br><br>
+
+                    <label for="salary5" class="form-label">Sueldo:</label>
+                    <input type="number" id="salary5" name="salary5" step="0.01" class="form-control-sm"
+                        required><br><br>
+                </div>
+            </div>
+
+            <button type="submit" id="submit" name="submit" class="btn btn-success m-2">Enviar</button>
+        </form>
+
+        <br><br>
+
+        <footer>
+            <div class="border">
+                <p>Luis Medina</p>
+                <p><b>30.064.322</b></p>
+                <p>Programación Web <b>N1013</b></p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
